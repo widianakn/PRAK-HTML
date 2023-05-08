@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.judul {
+    background-color: rgb(241, 12, 89);
+    text-align: center;
+    color: black;
+}
