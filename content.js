@@ -1,105 +1,126 @@
 const contenData = 
-    [{
-        "id": 1,
-        "judul": "Papageno",
-        "caption": "Twist",
-        "image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
-      }, {
-        "id": 2,
-        "judul": "Gray",
-        "caption": "Maghull",
-        "image": "http://dummyimage.com/103x100.png/cc0000/ffffff"
-      }, {
-        "id": 3,
-        "judul": "Madalyn",
-        "caption": "Ramage",
-        "image": "http://dummyimage.com/129x100.png/5fa2dd/ffffff"
-      }, {
-        "id": 4,
-        "judul": "Angelico",
-        "caption": "Zute",
-        "image": "http://dummyimage.com/165x100.png/cc0000/ffffff"
-      }, {
-        "id": 5,
-        "judul": "Philippe",
-        "caption": "Agerskow",
-        "image": "http://dummyimage.com/187x100.png/cc0000/ffffff"
-      }, {
-        "id": 6,
-        "judul": "Harlin",
-        "caption": "Binyon",
-        "image": "http://dummyimage.com/222x100.png/dddddd/000000"
-      }, {
-        "id": 7,
-        "judul": "Christoph",
-        "caption": "Pentony",
-        "image": "http://dummyimage.com/127x100.png/cc0000/ffffff"
-      }, {
-        "id": 8,
-        "judul": "Claude",
-        "caption": "Pell",
-        "image": "http://dummyimage.com/169x100.png/cc0000/ffffff"
-      }, {
-        "id": 9,
-        "judul": "Guillema",
-        "caption": "Itzcovich",
-        "image": "http://dummyimage.com/114x100.png/dddddd/000000"
-      }, {
-        "id": 10,
-        "judul": "Vincenty",
-        "caption": "Dhillon",
-        "image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff"
-      }, {
-        "id": 11,
-        "judul": "Nissa",
-        "caption": "Grellier",
-        "image": "http://dummyimage.com/137x100.png/5fa2dd/ffffff"
-      }, {
-        "id": 12,
-        "judul": "Zara",
-        "caption": "Hutchings",
-        "image": "http://dummyimage.com/133x100.png/cc0000/ffffff"
-      }, {
-        "id": 13,
-        "judul": "Rinaldo",
-        "caption": "Simonnet",
-        "image": "http://dummyimage.com/244x100.png/dddddd/000000"
-      }, {
-        "id": 14,
-        "judul": "Kristan",
-        "caption": "Mazey",
-        "image": "http://dummyimage.com/243x100.png/dddddd/000000"
-      }, {
-        "id": 15,
-        "judul": "Michell",
-        "caption": "Hassett",
-        "image": "http://dummyimage.com/230x100.png/dddddd/000000"
-      }, {
-        "id": 16,
-        "judul": "Curcio",
-        "caption": "Lanyon",
-        "image": "http://dummyimage.com/227x100.png/dddddd/000000"
-      }, {
-        "id": 17,
-        "judul": "Moishe",
-        "caption": "Nightingale",
-        "image": "http://dummyimage.com/166x100.png/ff4444/ffffff"
-      }, {
-        "id": 18,
-        "judul": "Hayden",
-        "caption": "Landsman",
-        "image": "http://dummyimage.com/118x100.png/cc0000/ffffff"
-      }, {
-        "id": 19,
-        "judul": "Armin",
-        "caption": "Lenoir",
-        "image": "http://dummyimage.com/231x100.png/ff4444/ffffff"
-      }, {
-        "id": 20,
-        "judul": "Mommy",
-        "caption": "Mapledoore",
-        "image": "http://dummyimage.com/207x100.png/5fa2dd/ffffff"
-      }]
+[{
+  "id": 1,
+  "Model": "JeffersMint Green Keolao",
+  "Deskripsi": "PitcoCropped Anagram Shirtck",
+  "IDR": "IDR 279,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/MintGreenKeola_220523_01_thumb_large.jpg?size=50x50&set=set1"
+}, {
+  "id": 2,
+  "Model": "VBlack Rhianu",
+  "Deskripsi": "SchoolcroMix Fabrics Shirtft",
+  "IDR": "IDR 349,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackRhianu_220523_01_thumb_large.jpg?size=50x50&set=set1"
+}, {
+  "id": 3,
+  "Model": "HaywardBlue Striped Thalya",
+  "Deskripsi": "AntwiBicolor Shirts",
+  "IDR": "IDR 349,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedThalya_220523_01_thumb_large.jpg?size=50x50&set=set1"
+}, {
+  "id": 4,
+  "Model": "SkyMilitary Lincylar",
+  "Deskripsi": "Multipocket Midi Skirt",
+  "IDR": "IDR 349,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/MilitaryLincy_220523_01_thumb_large.jpg?size=50x50&set=set1"
+}, {
+  "id": 5,
+  "Model": "GranBlue Striped Taminage",
+  "Deskripsi": "Constrast Stitching Blouse",
+  "IDR": "IDR 279,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedTamina_220523_02_thumb_large.jpg?size=50x50&set=set1"
+}, {
+  "id": 6,
+  "Model": "KirbBlue Striped Bethiay",
+  "Deskripsi": "TurSwallow Tail Dressner",
+  "IDR": "IDR 379,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedBethia_220523_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 7,
+  "Model": "OpaliBlack Davitane",
+  "Deskripsi": "Drapery Blouse",
+  "IDR": "IDR 299,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackDavita_220523_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 8,
+  "Model": "LesGreen Thalyaya",
+  "Deskripsi": "StychBicolor Shirte",
+  "IDR": "IDR 349,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/GreenThalya_220523_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 9,
+  "Model": "Black Maribela",
+  "Deskripsi": "Tweed Shirt",
+  "IDR": "IDR 279,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackMaribel_150523_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 10,
+  "Model": "TrstrOff-white Tameraam",
+  "Deskripsi": "ElietDeconstructed Cuff Shirt",
+  "IDR": "IDR 349,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/OffWhiteTamera_220523_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 11,
+  "Model": "Medium Wash Denim Senora",
+  "Deskripsi": "Asymmetrical Cropped Shirt",
+  "IDR": "IDR 279,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/MediumWashDenimSenora_060323_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 12,
+  "Model": "Blue Striped Zaveta",
+  "Deskripsi": "Cropped Shirt with Tie",
+  "IDR": "IDR 279,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedZaveta_060323_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 13,
+  "Model": "Off-white Otgiva",
+  "Deskripsi": "Shirt with Tie",
+  "IDR": "IDR 349,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/OffWhiteOtgiva_060323_05_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 14,
+  "Model": "Brown Ravenna",
+  "Deskripsi": "Oversized Blazer",
+  "IDR": "IDR 399,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BrownRavenna_130223_02_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 15,
+  "Model": "Brown Faven",
+  "Deskripsi": "Durram",
+  "IDR": "IDR 379,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BrownFaven_130223_05_a_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 16,
+  "Model": "Dark Wash Denim Kiden",
+  "Deskripsi": "Contrast Stitched Jacket",
+  "IDR": "IDR 449,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/NavyBlueKiden_060223_04_a_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 17,
+  "Model": "Black Checks Najja",
+  "Deskripsi": "Mixed Pattern Boxy Shirt",
+  "IDR": "IDR 279,650 (15% OFF)",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackStripeBajja_281122_04_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 18,
+  "Model": "Pink Kerstin",
+  "Deskripsi": "Sleeveless Top",
+  "IDR": "DR 199,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/PinkKerstin_230123_01_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 19,
+  "Model": "Cream Striped Vatha",
+  "Deskripsi": "Boxy Top",
+  "IDR": "IDR 199,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/CreamStripedVatha_230123_04_thumb_large.jpg?size=50x50&set=set"
+}, {
+  "id": 20,
+  "Model": "Black Gingham Joveta",
+  "Deskripsi": "Drawstring Dress",
+  "IDR": "IDR 369,000",
+  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackGinghamJoveta_270323_01_thumb_large.jpg?size=50x50&set=set"
+}]
+
 
 console.log(contenData); 
 const table = document.querySelector('section#content table')
@@ -110,10 +131,11 @@ for (let i = 0; i <contenData.length; i++){
     table.innerHTML += `
     <tr>
     <td>${contenData[i].id}</td>
-    <td>${contenData[i].judul}</td>
-    <td>${contenData[i].caption}</td>
+    <td>${contenData[i].Model}</td>
+    <td>${contenData[i].Deskripsi}</td>
+    <td>${contenData[i].IDR}</td>
     <td>
-          <img src=${contenData[i].image}" />
+          <img src=${contenData[i].Image}" />
     </td>
     </tr>
     `
