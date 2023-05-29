@@ -1,142 +1,27 @@
-const contenData = 
-[{
-  "id": 1,
-  "Model": "JeffersMint Green Keolao",
-  "Deskripsi": "PitcoCropped Anagram Shirtck",
-  "IDR": "IDR 279,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/MintGreenKeola_220523_01_thumb_large.jpg?size=50x50&set=set1"
-}, {
-  "id": 2,
-  "Model": "VBlack Rhianu",
-  "Deskripsi": "SchoolcroMix Fabrics Shirtft",
-  "IDR": "IDR 349,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackRhianu_220523_01_thumb_large.jpg?size=50x50&set=set1"
-}, {
-  "id": 3,
-  "Model": "HaywardBlue Striped Thalya",
-  "Deskripsi": "AntwiBicolor Shirts",
-  "IDR": "IDR 349,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedThalya_220523_01_thumb_large.jpg?size=50x50&set=set1"
-}, {
-  "id": 4,
-  "Model": "SkyMilitary Lincylar",
-  "Deskripsi": "Multipocket Midi Skirt",
-  "IDR": "IDR 349,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/MilitaryLincy_220523_01_thumb_large.jpg?size=50x50&set=set1"
-}, {
-  "id": 5,
-  "Model": "GranBlue Striped Taminage",
-  "Deskripsi": "Constrast Stitching Blouse",
-  "IDR": "IDR 279,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedTamina_220523_02_thumb_large.jpg?size=50x50&set=set1"
-}, {
-  "id": 6,
-  "Model": "KirbBlue Striped Bethiay",
-  "Deskripsi": "TurSwallow Tail Dressner",
-  "IDR": "IDR 379,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedBethia_220523_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 7,
-  "Model": "OpaliBlack Davitane",
-  "Deskripsi": "Drapery Blouse",
-  "IDR": "IDR 299,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackDavita_220523_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 8,
-  "Model": "LesGreen Thalyaya",
-  "Deskripsi": "StychBicolor Shirte",
-  "IDR": "IDR 349,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/GreenThalya_220523_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 9,
-  "Model": "Black Maribela",
-  "Deskripsi": "Tweed Shirt",
-  "IDR": "IDR 279,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackMaribel_150523_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 10,
-  "Model": "TrstrOff-white Tameraam",
-  "Deskripsi": "ElietDeconstructed Cuff Shirt",
-  "IDR": "IDR 349,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/OffWhiteTamera_220523_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 11,
-  "Model": "Medium Wash Denim Senora",
-  "Deskripsi": "Asymmetrical Cropped Shirt",
-  "IDR": "IDR 279,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/MediumWashDenimSenora_060323_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 12,
-  "Model": "Blue Striped Zaveta",
-  "Deskripsi": "Cropped Shirt with Tie",
-  "IDR": "IDR 279,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlueStripedZaveta_060323_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 13,
-  "Model": "Off-white Otgiva",
-  "Deskripsi": "Shirt with Tie",
-  "IDR": "IDR 349,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/OffWhiteOtgiva_060323_05_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 14,
-  "Model": "Brown Ravenna",
-  "Deskripsi": "Oversized Blazer",
-  "IDR": "IDR 399,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BrownRavenna_130223_02_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 15,
-  "Model": "Brown Faven",
-  "Deskripsi": "Durram",
-  "IDR": "IDR 379,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BrownFaven_130223_05_a_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 16,
-  "Model": "Dark Wash Denim Kiden",
-  "Deskripsi": "Contrast Stitched Jacket",
-  "IDR": "IDR 449,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/NavyBlueKiden_060223_04_a_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 17,
-  "Model": "Black Checks Najja",
-  "Deskripsi": "Mixed Pattern Boxy Shirt",
-  "IDR": "IDR 279,650 (15% OFF)",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackStripeBajja_281122_04_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 18,
-  "Model": "Pink Kerstin",
-  "Deskripsi": "Sleeveless Top",
-  "IDR": "DR 199,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/PinkKerstin_230123_01_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 19,
-  "Model": "Cream Striped Vatha",
-  "Deskripsi": "Boxy Top",
-  "IDR": "IDR 199,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/CreamStripedVatha_230123_04_thumb_large.jpg?size=50x50&set=set"
-}, {
-  "id": 20,
-  "Model": "Black Gingham Joveta",
-  "Deskripsi": "Drawstring Dress",
-  "IDR": "IDR 369,000",
-  "Image": "https://s3-ap-southeast-1.amazonaws.com/cottonink/product/BlackGinghamJoveta_270323_01_thumb_large.jpg?size=50x50&set=set"
-}]
+async function getData(){
+  const data = await fetch('http://localhost:5500/data.json')
+  .then(res => res.json ())
+  console.log('test A')
+  return data
 
+}
 
+const run = async ()=>{
+const contenData = await getData()
 console.log(contenData); 
+console.log('test B');
+
 const table = document.querySelector('section#content table')
 console.log(table)
 
 // console.log(table)
 for (let i = 0; i <contenData.length; i++){
     table.innerHTML += `
-    <tr>
-    <td>${contenData[i].id}</td>
-    <td>${contenData[i].Model}</td>
-    <td>${contenData[i].Deskripsi}</td>
-    <td>${contenData[i].IDR}</td>
-    <td>
-          <img src=${contenData[i].Image}" />
-    </td>
-    </tr>
+    <div class="data">
+    <img src="${contenData[i].Image}" />
+    <span class="capitalize">${contenData[i].Model}</span>
+    </div>
     `
 }
+}
+ run ()
