@@ -1,5 +1,5 @@
 async function getData(){
-  const data = await fetch('http://localhost:5500/data.json')
+  const data = await fetch('data.json')
   .then(res => res.json ())
   console.log('test A')
   return data
@@ -19,6 +19,7 @@ for (let i = 0; i <contenData.length; i++){
     <div class="card">
     <img src="${contenData[i].Image}" />
     <span class="capitalize">${contenData[i].Model}</span>
+    <span class="capitalize">${contenData[i].IDR}</span>
     </div>
     `
 }
