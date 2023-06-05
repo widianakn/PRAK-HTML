@@ -11,13 +11,12 @@ const contenData = await getData()
 console.log(contenData); 
 console.log('test B');
 
-const table = document.querySelector('section#content table')
-console.log(table)
+const table = document.querySelector('section#content')
 
 // console.log(table)
 for (let i = 0; i <contenData.length; i++){
     table.innerHTML += `
-    <div class="data">
+    <div class="card">
     <img src="${contenData[i].Image}" />
     <span class="capitalize">${contenData[i].Model}</span>
     </div>

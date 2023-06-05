@@ -3,31 +3,29 @@ nav {
     height: 44px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
-nav a {
-    text-decoration: none;
-}
-nav div{
+
+nav div {
     height: 100%;
     display: flex;
-    align-items: center;
-}
-nav > div > img {
+    align-items: center;
+  }
+  
+  nav > div > img {
     height: 70%;
-}
-nav img {
+  }
+  
+  nav > img {
     height: 200%;
-}
-nav .menu > a{
-    padding: 0 8px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    color: black;
-}
-
-.menu {
+    z-index: 2;
+  }
+  
+  .menu {
+    /* display: none; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -37,27 +35,27 @@ nav .menu > a{
     top: 44px;
     width: 100px;
     transform: translateX(-100%);
-    transition-duration: 300ms;
-}
-@media (min-width :360px) {
+    transition-duration: 300ms;
+  }
+  
+  @media (min-width: 360px) {
     .menu {
-        transform: translateX(0) !important;
-        position: static;
-        flex-direction: row;
-        background-color: white;
-        width: auto;
-        display: flex;
+      transform: translateX(0) !important;
+      position: static;
+      flex-direction: row;
+      background-color: inherit;
+      width: auto;
     }
     .menu-trigger {
-        display: none;
+      display: none;
     }
-    nav .menu > a{
-        padding: 0 8px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: black;
-    
-}
-
+  }
+  
+  nav > .menu > a {
+    padding: 0 8px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }

@@ -1,9 +1,22 @@
 body {
     margin: 0;
-}
-
-.judul {
-    background-color: rgb(241, 12, 89);
-    text-align: center;
-    color: black;
-}
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    width: 44px;
+    height: 44px;
+  }
+  
+  button:hover {
+    border: solid;
+    cursor: pointer;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+  
+  .bold {
+    font-size: larger;
+  }
